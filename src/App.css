@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+
+}
+.todoList,p{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: rgb(32, 204, 195);
+  border: 0.1px solid rgb(7, 230, 218);
+  border-radius: 10px;
+}
+.todoList h1{
+  color: rgb(1, 71, 24);
+}
+.todoList button{
+  background-color: rgb(103, 247, 98);
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: 0.1px solid rgb(74, 180, 70); ;
+  text-align: center;
+  margin-left: 2rem;
+  width: auto;
+  border-radius: 20px;
+  color: rgba(27, 2, 165, 0.986);
+  font-weight: 800;
+}
+.todoList input{
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 0.1px solid rgb(142, 199, 196);
+  color: rgb(255, 45, 45);
+  font-size: 2rem;
+  font-weight: 550;
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.list{
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 50%;
+  margin-right: 10%;
+  margin-left: 10%;
+  justify-content: center;
+}
+.list-item{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  width: 50rem;
+}
+.list-item h3{
+  color: rgb(255, 0, 0);
+  font-size: 2em;
+}
+.list-item button{
+  background-color: rgb(103, 247, 98);
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 0.1px solid rgb(74, 180, 70); ;
+  text-align: center;
+  margin-left: 2rem;
+  width: 5em;
+  border-radius: 20px;
+  color: rgba(2, 73, 67, 0.986);
+  font-weight: 800;
+}
